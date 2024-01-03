@@ -1,0 +1,508 @@
+/*reset da pagina*/
+
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital@1&family=Roboto&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+nav ul{
+    background-image:linear-gradient(to right, red,black);
+    list-style: none;
+    display:flex;
+    gap:3rem;
+    width: 100%;
+    height: 30px;
+    position:fixed;
+    align-items: center;
+    box-shadow: 0px 2px rgba(134,31,31,0.1)
+}
+nav ul li a{
+    font-size: 22px;
+    color:Black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+nav ul li a:hover{
+    background-color: rgb(45, 100, 143);
+    color:rgb(255, 0, 0);
+    padding: 6px;
+}
+
+.login {
+    margin-left:760px;
+    color:white;
+}
+
+
+.espaço{
+    padding: 0%;
+    width:100%;
+    height:28vh;
+}
+.video{
+   padding-top: 2%;
+   width:1513px;
+   height:175px;
+}
+section{
+    height: 500px;
+    padding-top: 3rem;
+}
+#história{
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    background-image:url(../img/miranha.jpg) 
+}
+
+
+
+.card1{
+    width:230px;
+    height: 325px;
+    background-image:linear-gradient(white,rgb(53, 107, 165)50%,rgb(130, 35, 35));
+    margin-top: 222px;
+    margin-left: 175px;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display:inline-block; 
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+.card1 h3{
+    font-size: 21px;
+    padding-top:2%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:white;
+
+}
+.card1 p{
+    font-size: 16px;
+    font-family:'Marvel', sans-serif;
+    padding-top: 0%;
+    text-align:justify;
+}
+ div{
+    display:inline-block;
+}
+.DuendeVerde img{
+    width:330px;
+    height:250px;
+    margin-left:180px;
+    margin-top:8px; 
+}
+.DuendeVerde h4{
+    margin-left:290px;
+    background-image: var(--gradient3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    margin-top:15px;
+    font-family:'Marvel', sans-serif;
+    font-size: 20px;
+}
+.DuendeVerde table{
+   margin-left:50px;
+   margin-top:10px;
+   
+}
+.DuendeVerde td{
+    width:280px;
+    height:100px;
+    text-align: justify;
+    padding:8px;
+    margin-left:50px ;
+    border:3px Solid rgb(0, 0, 0);
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+.DrOctopus img{
+    width:410px;
+    height:240px;
+    margin-left:220px;   
+}
+.DrOctopus h4{
+    margin-left:380px;
+    padding:8px;
+    background-image: var(--gradient3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
+}
+.DrOctopus table{
+    margin-left:120px;
+    margin-top:10px;  
+}
+.DrOctopus td{
+    width:280px;
+    height:170px;
+    text-align: justify;
+    padding:8px;
+    border:3px Solid black;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+.Venom img{
+    width:410px;
+    height:240px;
+    margin-left:147px;     
+}
+.Venom h4{
+    margin-left:310px;
+    margin-top:80px;
+    padding:8px;
+    background-image: var(--gradient3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-family: 'Marvel', sans-serif;
+    font-size: 25px;
+}
+.Venom table{
+    margin-left:50px;
+    margin-top:10px;
+    
+}
+.Venom td{
+    width:300px;
+    height:170px;
+    text-align: justify;
+    padding:8px;
+    border:3px Solid black;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+.Lagarto img{
+    width:410px;
+    height:240px;
+    margin-left:180px;   
+   
+}
+.Lagarto h4{
+    margin-left:350px;
+    margin-top:80px;
+    padding:8px;
+    background-image: var(--gradient3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-family: 'Marvel', sans-serif;
+    font-size: 25px;
+}
+.Lagarto table{
+    margin-left:50px;
+    margin-top:10px;  
+}
+.Lagarto td{
+    width:300px;
+    height:170px;
+    text-align: justify;
+    padding:8px;
+    border:3px Solid black;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+:root{
+    --gradient: linear-gradient(white 40%,red);
+    --gradient2: linear-gradient(rgb(187, 160, 24) 30%,rgb(109, 255, 165));
+    --gradient3:linear-gradient(rgb(255, 245, 49),rgb(255, 149, 1),red);
+    --gradient4:linear-gradient(red,blue);
+}
+
+/*História e Criador*/
+h1{
+    font-size: 55px;
+    font-family: 'Marvel', sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image:var(--gradient);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+   }
+/*Principais Vilões*/
+
+h2{
+  font-size:75px;
+  font-family:'Marvel', sans-serif;
+  margin-left: 30px;
+  background-image:var(--gradient2);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+h5{
+    font-size:27px;
+    font-family:'Marvel', sans-serif;
+    margin-left:30px;
+    margin-top:20px;
+    color:rgb(231, 204, 130); 
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    color:white;
+    margin-top: 25px;
+    margin-left:15px;
+    margin-right:15px;
+}
+#criador{
+    color: blue;
+    background-image:linear-gradient(rgb(130, 35, 35),black ,rgb(53, 107, 165));
+}
+.image{
+    width:330px;
+    height: 250px;
+    margin-top:23px;
+    margin-left:300px;
+}
+.image2{
+    width:330px;
+    height: 250px;
+    margin-top:23px;
+    margin-left:250px;
+}
+#principaisvilões{
+    
+    background-image:linear-gradient(rgb(53, 107, 165),rgb(102, 93, 77),rgba(67, 102, 53, 0.796));
+}
+#principaisvilões2{
+    background-image:linear-gradient(rgba(67, 102, 53, 0.796),rgb(158, 162, 85)80%);
+}
+.background-image2{
+    background-image:linear-gradient(rgb(158, 162, 85),rgba(43, 60, 36, 0.796),rgb(2, 9, 18));
+}
+
+#img-vilão{
+    width:50%;
+    height:50vh;
+    margin-top:130px;
+    margin-left: 350px;
+    border-radius: 15px;
+}
+#rodape{
+
+    color:azure;
+    text-align: center;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+} 
+
+/* Estilizando a página de login*/
+
+#fundo{
+    background-color:red;
+}
+.fazerlogin{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    margin-left:-90px;
+}
+
+.formulario h1{
+    color:red;
+}
+.usuarioSenha{
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:20px;
+    margin-left:-50px;
+}
+
+ h3{
+   
+  color:red;
+}
+
+#usuario{
+    font-family: 'Marvel', sans-serif;
+   
+    font-weight:bold;
+    margin-left:90px;
+  
+}
+#idUser{
+    margin-left:10px;
+}
+
+
+#senha{
+    font-family: 'Marvel', sans-serif;
+    
+    font-weight:bold;
+    margin-left:95px;
+}
+
+#idSenha{
+    margin-left:15px;
+}
+
+
+#btn{
+    
+     margin-top:50px;
+     width:60%;
+     background-color: white;
+     
+}
+
+#btn:hover{
+    background-color: blue;
+    color:white;
+}
+
+form{
+    margin-left:300px;
+    margin-top:120px;
+    padding-bottom:60px;
+}
+/* trasnparecendo o fundo*/
+.credit{
+ background:rgb(0,0,0,0.75);
+ font-size:1.3em;
+ color:whitesmoke;
+ width:70%;
+ height:auto;
+ margin-top:60px;
+ margin-left:220px;
+ border-radius:0.5em;
+}
+
+.credit h3{
+    color:red;
+    transition:1s;
+   
+}
+
+.credit h3:hover{
+    color:white;
+    text-shadow:0 0 8px rgb(194, 56, 56);
+}
+
+.credit h1{
+    color:red;
+    transition:1s;
+}
+
+.credit h1:hover{
+    color:rgb(0, 34, 255);
+    text-shadow:0 0 8px white;
+}
+
+#fundodashboard{
+    background-image:linear-gradient(to right,white,blue);
+}
+#imagem-fundo{
+  background-image:url(../img/teiaaranha.webp);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.parabéns{
+    color:rgb(46, 9, 9);
+    margin-left:25%;  
+}
+.recomendar{
+    color:black;
+    margin-left:24%;  
+    padding-top:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+
+
+#cronometro{
+    margin-top:10%;
+    margin-left:45%;
+}
+#cronometro p{
+    margin-left: -120px;
+}
+
+.nomefilme{
+    background-color: rgb(81, 81, 212);
+}
+
+.ano{
+    background-color: rgb(81, 81, 212);
+}
+
+.assistir{
+    background-color: rgb(81, 81, 212);
+}
+
+.tabela{
+    width:600px;
+    border-collapse:collapse;
+    font-family: 'Marvel', sans-serif;
+    margin-top:100px;
+    margin-left:50px;
+    border:3px Solid blue;
+}
+
+.linha{
+  background-color: rgb(156, 58, 58);
+}
+
+.tabela td{
+    border:1px Solid black;
+    height:50px;
+    padding-left:10px;
+    padding-right:5px;
+    color:white;
+    font-size: 17px;
+}
+
+.hqs{
+  margin-left:50%;
+  margin-top:-33%;
+}
+
+#img1{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+#img2{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+#img3{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+#img4{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+#img5{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+#img6{
+    width:130px;
+    height:200px;
+    padding:5%;
+}
+
+
+
